@@ -1,0 +1,7 @@
+MainTest.class
+com\javaruszglowa\model\PhysicalEmployeeTest.class
+com\javaruszglowa\model\AddressTest.class
+com\javaruszglowa\model\SalesmanTest.class
+com\javaruszglowa\model\EmployeeTest.class
+com\javaruszglowa\model\OfficeEmployeeTest.class
+com\javaruszglowa\registry\EmployeeRegistryTest.class
