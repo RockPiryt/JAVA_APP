@@ -1,8 +1,0 @@
--------------------------------------------------------------------------------
-Test set: com.javaruszglowa.model.SoldierTest
--------------------------------------------------------------------------------
-Tests run: 11, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.038 s <<< FAILURE! - in com.javaruszglowa.model.SoldierTest
-com.javaruszglowa.model.SoldierTest.testGainExperienceWithoutPromotion  Time elapsed: 0.002 s  <<< FAILURE!
-org.opentest4j.AssertionFailedError: expected: <5> but was: <1>
-	at com.javaruszglowa.model.SoldierTest.testGainExperienceWithoutPromotion(SoldierTest.java:31)
-
