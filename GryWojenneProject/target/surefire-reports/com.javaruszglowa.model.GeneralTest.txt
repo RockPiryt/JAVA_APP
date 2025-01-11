@@ -1,0 +1,32 @@
+-------------------------------------------------------------------------------
+Test set: com.javaruszglowa.model.GeneralTest
+-------------------------------------------------------------------------------
+Tests run: 10, Failures: 3, Errors: 2, Skipped: 0, Time elapsed: 0.132 s <<< FAILURE! - in com.javaruszglowa.model.GeneralTest
+com.javaruszglowa.model.GeneralTest.testPerformManeuvers  Time elapsed: 0 s  <<< FAILURE!
+org.opentest4j.MultipleFailuresError: 
+Multiple Failures (1 failure)
+	org.opentest4j.AssertionFailedError: Złoto powinno zmniejszyć się o koszt manewrów ==> expected: <98> but was: <78>
+	at com.javaruszglowa.model.GeneralTest.testPerformManeuvers(GeneralTest.java:46)
+
+com.javaruszglowa.model.GeneralTest.testSaveAndLoadFromFile  Time elapsed: 0.116 s  <<< ERROR!
+com.fasterxml.jackson.databind.exc.InvalidDefinitionException: 
+Cannot construct instance of `com.javaruszglowa.model.General` (no Creators, like default constructor, exist): cannot deserialize from Object value (no delegate- or property-based Creator)
+ at [Source: (File); line: 1, column: 2]
+	at com.javaruszglowa.model.GeneralTest.testSaveAndLoadFromFile(GeneralTest.java:143)
+
+com.javaruszglowa.model.GeneralTest.testAttackWin  Time elapsed: 0.016 s  <<< FAILURE!
+org.opentest4j.MultipleFailuresError: 
+Multiple Failures (1 failure)
+	org.opentest4j.AssertionFailedError: Atakujący powinien zyskać złoto po wygranej ==> expected: <true> but was: <false>
+	at com.javaruszglowa.model.GeneralTest.testAttackWin(GeneralTest.java:89)
+
+com.javaruszglowa.model.GeneralTest.testPerformManeuversInsufficientGold  Time elapsed: 0 s  <<< ERROR!
+java.lang.IllegalStateException: Not enough gold to recruit a PRIVATE
+	at com.javaruszglowa.model.GeneralTest.testPerformManeuversInsufficientGold(GeneralTest.java:58)
+
+com.javaruszglowa.model.GeneralTest.testAttackLose  Time elapsed: 0 s  <<< FAILURE!
+org.opentest4j.MultipleFailuresError: 
+Multiple Failures (1 failure)
+	org.opentest4j.AssertionFailedError: Obrońca powinien zyskać złoto po wygranej ==> expected: <true> but was: <false>
+	at com.javaruszglowa.model.GeneralTest.testAttackLose(GeneralTest.java:108)
+
