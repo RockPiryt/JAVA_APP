@@ -1,0 +1,12 @@
+[2025-01-11T23:49:37.561] Faza rekrutacji w rundzie 1
+[2025-01-11T23:49:37.561] Genera³ Alexander zrekrutowa³ nowego ¿o³nierza
+[2025-01-11T23:49:37.561] Genera³ Philip zrekrutowa³ nowego ¿o³nierza
+[2025-01-11T23:49:37.561] Rekrutacja ¿o³nierzy
+[2025-01-11T23:49:37.561] Faza manewrów w rundzie 1
+[2025-01-11T23:49:37.561] Genera³ Alexander przeprowadzi³ manewry dla czêœci swojej armii
+[2025-01-11T23:49:37.561] Manewry Genera³a Alexandra
+[2025-01-11T23:49:37.561] Genera³ Philip przeprowadzi³ manewry dla czêœci swojej armii
+[2025-01-11T23:49:37.561] Manewry Genera³a Philipa
+[2025-01-11T23:49:37.561] Faza bitwy w rundzie 1
+[2025-01-11T23:49:37.561] Bitwa zakoñczy³a siê remisem. Obie strony straci³y po jednym ¿o³nierzu.
+[2025-01-11T23:49:37.561] Bitwa miêdzy genera³ami
